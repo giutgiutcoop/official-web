@@ -4,7 +4,7 @@ const Banner = (props) => (
     <section id="banner" className="major">
         <div className="inner">
             <header className="major">
-                <h1>ㄱㅇㄱㅇ | 여기 저기, 기웃 기웃</h1>
+                <h1>ㄱㅇㄱㅇ | 여기 저기, 기웃 기웃, 웃기웃기</h1>
             </header>
             <div className="content">
                 <p>A responsive site template designed by HTML5 UP<br />
