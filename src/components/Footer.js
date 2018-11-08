@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = (props) => (
     <footer id="footer">
-        <div className="inner">
+        <div className="inner customFooter">
             <ul className="icons">
                 <li><a href="#" className="icon alt fa-twitter"><span className="label">Twitter</span></a></li>
                 <li><a href="#" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>

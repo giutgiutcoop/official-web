@@ -1,4 +1,5 @@
 import React from 'react'
+import Typist from 'react-typist';
 
 const Banner = (props) => (
     <section id="banner" className="major">
@@ -6,12 +7,18 @@ const Banner = (props) => (
             <header className="major">
                 <h1>ㄱㅇㄱㅇ | 여기 저기, 기웃 기웃, 웃기웃기</h1>
             </header>
-            <div className="content">
-                <p>A responsive site template designed by HTML5 UP<br />
-                and released under the Creative Commons.</p>
-                {/*<ul className="actions">*/}
-                    {/*<li><a href="#one" className="button next scrolly">Get Started</a></li>*/}
-                {/*</ul>*/}
+            <div>
+              <Typist
+                avgTypingSpeed={40}
+                startDelay={1000}
+                cursor={{
+                  hideWhenDone: true,
+                  hideWhenDoneDelay: 0,
+                }}
+              >
+                A responsive site template designed by HTML5 UP
+                and released under the Creative Commons.
+              </Typist>
             </div>
         </div>
     </section>
